@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap');
+
+$font: 'Manrope', sans-serif;
+$grayishBlue: hsl(225, 20%, 60%);
+$lightRed: hsl(15, 100%, 70%);
+$lightGrayishRed: hsl(14, 92%, 95%);
+$veryPaleBlue: hsl(230, 100%, 99%);
+$lightGrayishBlue: hsl(224, 65%, 95%);
+
+body {
+    font-family: $font;
+}
+
+.title {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 25%;
+    font-size: 24px;
+    font-weight: 800;
+    @include media-breakpoint-up(lg){
+        padding-top: 5%;
+    }
+}
+
+.subtitle {
+    font-size: 18px;
+    padding-left: 23%;
+    padding-right: 23%;
+    line-height: 1.6;
+    color: $grayishBlue;
+    font-weight: 600;
+    
+}
+
+.card-title {
+    color: $grayishBlue;
+    font-size: 16px;
+    margin: 10%;
+    letter-spacing: 3px;
+}
+
+.month {
+    font-weight: 800;
+    margin: 10%;
+    font-size: 34px;
+    span {
+        color: $grayishBlue;
+        font-size: 22px;
+        font-weight: 600;
+        @include media-breakpoint-up(lg){
+            font-size: 20px;
+        }
+    }
+}
+
+.form-label {
+    font-size: 0.8rem;
+    color: $grayishBlue;
+    @include media-breakpoint-up(lg){
+        font-size: 15px;
+    }
+}
+
+.yearly {
+    font-size: 0.8rem;
+    color: $grayishBlue;
+    @include media-breakpoint-up(lg){
+        font-size: 15px;
+    }
+    
+}
+
+.unlimited {
+    color: $grayishBlue;
+    font-size: 15px;
+}
+
+.start-btn  {
+    color: $lightGrayishBlue;
+}
+
+.discount {
+        margin-left: 10px;
+        padding: 2px 7px;
+        border-radius: 10px;
+        color: $lightRed;
+        background-color: $lightGrayishRed;
+        &::after {
+            content: '-25%';
+        @include media-breakpoint-up(lg){
+            content: '25% Discount';
+        }
+    }
+}
+
+
+
+
+
