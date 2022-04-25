@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [ Solution](https://github.com/rebekahshaw92//interactive-pricing-component)
-- Live Site URL: [Live Site](https://rebekahshaw92.github.io/interactive-pricing-component)
+- Live Site URL: [Live Site](https://rebekahshaw92.github.io/interactive-pricing-component/)
 
 ### What I Leanred
 
